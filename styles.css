@@ -109,6 +109,9 @@ a { color: inherit; text-decoration: none; }
 /* Partner */
 .partner-label { font-size: 15px; color: var(--muted); margin: 0 0 20px; }
 .partner-row { display: flex; gap: 16px; flex-wrap: wrap; }
+.partner-badge-logo { padding: 14px 24px; display: flex; align-items: center; transition: border-color .15s ease, box-shadow .15s ease; }
+.partner-badge-logo:hover { border-color: var(--accent-green); box-shadow: 0 10px 24px rgba(27,30,28,0.08); }
+.partner-badge-logo img { height: 40px; width: auto; display: block; }
 .partner-badge { border: 1px solid var(--line); border-radius: 4px; padding: 18px 24px; font-family: 'Newsreader', serif; font-size: 18px; font-weight: 500; }
 
 /* CTA */
